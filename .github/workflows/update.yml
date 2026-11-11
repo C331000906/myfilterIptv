@@ -1,0 +1,28 @@
+name: Update US IPTV
+on:
+  schedule:
+    - cron: '0 3 * * *'          # UTC 03:00 = 北京时间 11:00
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 拉源 + 筛 US + 去 DRM
+        run: |
+          curl -sL https://raw.githubusercontent.com/BuddyChewChew/samsungtvplus/main/output/samsung_tvplus.m3u -o all.m3u
+          awk '/^#EXTINF/{h=$0; getline u; if (h ~ /tvg-id="US/ && h !~ /drm="true"/) print h"\n"u}' all.m3u > us_clean.m3u
+          awk '/^#EXTINF/{h=$0; getline u; if (h ~ /tvg-id="(AT|CH|DE|ES|FR|GB|IT)/ && h !~ /drm="true"/) print h"\n"u}' all.m3u > eu_clean.m3u
+          echo "US=$(grep -c '^#EXTINF' us_clean.m3u)  EU=$(grep -c '^#EXTINF' eu_clean.m3u)"
+
+      - name: 提交
+        run: |
+          git config user.name  "github-actions"
+          git config user.email "actions@github.com"
+          git add us_clean.m3u eu_clean.m3u
+          git diff --cached --quiet || git commit -m "update $(date -u +%F_%H:%M)"
+          git push
