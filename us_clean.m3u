@@ -150,7 +150,7 @@ https://jmp2.uk/stvp-US17000164B
 https://jmp2.uk/stvp-US1700017NM
 #EXTINF:-1 tvg-id="US2000012KX" tvg-name="Genie K-Drama" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US2000012KX_20260819T010653SQUARE.png" group-title="Action & Drama" tvg-chno="1614",Genie K-Drama
 https://jmp2.uk/stvp-US2000012KX
-#EXTINF:-1 tvg-id="USAJ22000130U" tvg-name="MHz Mysteries" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ22000130U_20260609T214511SQUARE.png" group-title="Action & Drama" tvg-chno="1615",MHz Mysteries
+#EXTINF:-1 tvg-id="USAJ22000130U" tvg-name="MHz Mysteries" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ22000130U_20261117T052540SQUARE.png" group-title="Action & Drama" tvg-chno="1615",MHz Mysteries
 https://jmp2.uk/stvp-USAJ22000130U
 #EXTINF:-1 tvg-id="USBD700016JY" tvg-name="Dove Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700016JY_20250211T021651SQUARE.png" group-title="Action & Drama" tvg-chno="1620",Dove Channel
 https://jmp2.uk/stvp-USBD700016JY
@@ -664,6 +664,8 @@ https://jmp2.uk/stvp-US200111SU
 https://jmp2.uk/stvp-US800014B2
 #EXTINF:-1 tvg-id="USBD1200004NS" tvg-name="The Walking Dead Universe" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1200004NS_20261001T230824SQUARE.png" group-title="Sci-Fi & Horror" tvg-chno="3015",The Walking Dead Universe
 https://jmp2.uk/stvp-USBD1200004NS
+#EXTINF:-1 tvg-id="US39000221B" tvg-name="Tales from the Crypt" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US39000221B_20261117T052553SQUARE.png" group-title="Sci-Fi & Horror" tvg-chno="3023",Tales from the Crypt
+https://jmp2.uk/stvp-US39000221B
 #EXTINF:-1 tvg-id="USBD1200007FE" tvg-name="OuterSphere" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1200007FE_20240611T050306SQUARE.png" group-title="Sci-Fi & Horror" tvg-chno="3030",OuterSphere
 https://jmp2.uk/stvp-USBD1200007FE
 #EXTINF:-1 tvg-id="US300002BE" tvg-name="The Curse of Oak Island" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US300002BE_20261103T171632SQUARE.png" group-title="Sci-Fi & Horror" tvg-chno="3035",The Curse of Oak Island
@@ -770,6 +772,8 @@ https://jmp2.uk/stvp-US2000010PO
 https://jmp2.uk/stvp-USBA3000158L
 #EXTINF:-1 tvg-id="US39000177S" tvg-name="Nick en Español" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US39000177S_20260727T081440SQUARE.png" group-title="Kids" tvg-chno="3611",Nick en Español
 https://jmp2.uk/stvp-US39000177S
+#EXTINF:-1 tvg-id="US3600009PP" tvg-name="Sesame Street" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3600009PP_20261117T052547SQUARE.png" group-title="Kids" tvg-chno="3616",Sesame Street
+https://jmp2.uk/stvp-US3600009PP
 #EXTINF:-1 tvg-id="US17000208H" tvg-name="BABY SHARK TV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US17000208H_20260915T035035SQUARE.png" group-title="Kids" tvg-chno="3618",BABY SHARK TV
 https://jmp2.uk/stvp-US17000208H
 #EXTINF:-1 tvg-id="US9000032J" tvg-name="Blippi" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US9000032J_20260414T005522SQUARE.png" group-title="Kids" tvg-chno="3619",Blippi
